@@ -1,0 +1,17 @@
+# Allow-list: only the skill itself is ever tracked, so a source PDF, plan,
+# page image or generated deck dropped in here can't be committed by mistake.
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/SKILL.md
+!/scripts/
+
+__pycache__/
+*.pyc
+*.pdf
+*.pptx
+*.jpg
+*.jpeg
+*.png
+*.plan.json
